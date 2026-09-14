@@ -1,0 +1,11 @@
+mouse_id,intrinsic_gamma_peak,distance_from_40hz,treatment_response_40hz,amyloid_reduction,group,data_source,memory_improvement
+Etter_177,40.0,0.0,0.2683523654159869,0.3706194844645959,PVJ20+_ChETA,published_cohort_table,
+Etter_181,10.0,30.0,0.6288743882544862,0.0893757201536272,PVJ20+_ChETA,published_cohort_table,
+Etter_183,10.0,30.0,1.0,0.748601811650627,PVJ20+_ChETA,published_cohort_table,
+Etter_184,10.0,30.0,0.0289559543230016,0.4039248845663186,PVJ20+_ChETA,published_cohort_table,
+Etter_236,10.0,30.0,0.4168026101141925,0.0537947042894372,PVJ20+_ChETA,published_cohort_table,
+Etter_238,40.0,0.0,0.3115823817292006,0.0,PVJ20+_ChETA,published_cohort_table,
+Etter_255,10.0,30.0,0.0473083197389885,0.3288411147430506,PVJ20+_ChETA,published_cohort_table,
+Etter_333,40.0,0.0,0.5146818923327896,1.0,PVJ20+_ChETA,published_cohort_table,
+Etter_334,10.0,30.0,0.0,0.2776950224813392,PVJ20+_ChETA,published_cohort_table,
+Etter_354,10.0,30.0,0.1223491027732463,,PVJ20+_ChETA,published_cohort_table,
