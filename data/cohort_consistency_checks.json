@@ -1,0 +1,1 @@
+{"etter_n":10,"iaccarino_n":18,"iaccarino_n_per_arm_20_40_80":[6,6,6],"iaccarino_distances_hz":[0.0,20.0,40.0],"consistency_checks":{"etter_distance_matches_peak":true,"iaccarino_distance_matches_stim":true,"pass_rate":1.0},"mouse_model_etter":"PV-Cre;J20(PVJ20)withChETA","note":"Analysis-readycohorttablesverifiedforinternalalgebraicconsistency."}
