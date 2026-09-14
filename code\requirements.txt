@@ -1,1 +1,0 @@
-numpy>=1.24pandas>=2.0scipy>=1.10scikit-learn>=1.3matplotlib>=3.7
