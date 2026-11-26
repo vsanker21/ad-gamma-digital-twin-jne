@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: If you use this corrected archive, cite it and state that v1.0.0 is superseded.
+title: "Corrected verified archive for population-level gamma-entrainment digital twin analyses (v2.0.0)"
+authors:
+  - family-names: Sanker
+    given-names: Vivek
+    orcid: https://orcid.org/0000-0003-0615-8397
+    email: vsanker@stanford.edu
+    affiliation: Department of Neurosurgery, Stanford University
+  - family-names: Awasthi
+    given-names: Shriya
+    email: sawasthi1@stanford.edu
+    affiliation: Department of Neurology, Stanford University
+  - family-names: Desai
+    given-names: Atman
+    email: atman@stanford.edu
+    affiliation: Department of Neurosurgery, Stanford University
+  - family-names: Sha
+    given-names: Sharon
+    email: ssha1@stanford.edu
+    affiliation: Department of Neurology, Stanford University
+keywords:
+  - Alzheimer's disease
+  - gamma entrainment
+  - digital twin
+  - data correction
+  - frequency titration
+license: MIT
+repository-code: "https://github.com/vsanker21/ad-gamma-digital-twin-jne"
+doi: "10.5281/zenodo.24570086"
+version: "2.0.0"
+date-released: "2026-11-26"

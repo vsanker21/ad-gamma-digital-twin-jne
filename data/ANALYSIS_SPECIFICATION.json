@@ -1,0 +1,82 @@
+{
+  "document_type": "corrected_reanalysis_specification",
+  "version": "2.0.0",
+  "created_utc": "2026-11-26T19:46:08Z",
+  "honesty_notice": "This is an analysis specification for the post-rejection corrected archive. It is NOT a prospective pre-registration fixed before seeing the data. The prior PHASE3_PREREGISTRATION.json incorrectly embedded finished coefficients and pass/fail verdicts inside the plan file; that practice is discontinued.",
+  "claim_boundary": {
+    "supported": [
+      "Frequency-titration consistency: in Iaccarino VC ELISA (n=18), greater assigned flicker mismatch from 40 Hz associates with lower A\u03b21-40 reduction vs dark baseline.",
+      "Etter complete tri-frequency subset (n=7) is underpowered; report point estimate with permutation CI; do not claim personalization validation.",
+      "Population-level Brian2/digital-twin simulation is hypothesis-generating only."
+    ],
+    "not_supported": [
+      "Personalized gamma entrainment validated in individuals.",
+      "Independent out-of-sample prediction of unseen experiments.",
+      "Pooled n=28 ML as confirmatory evidence.",
+      "28 Hz as a robust empirical stimulation optimum.",
+      "Iaccarino per-animal endogenous gamma predictors.",
+      "Etter plaque burden paired by mouse ID (values exist anonymously; ID link unverified)."
+    ]
+  },
+  "endpoints": {
+    "P1_primary": {
+      "study": "Iaccarino_2016",
+      "n": 18,
+      "inclusion": "All VC 1 hr flicker animals in Extended Data Table 1 arms 20/40/80 Hz",
+      "predictor": "abs(stimulation_frequency_hz - 40)",
+      "outcome_primary": "fractional_ab40_reduction_vs_dark",
+      "outcome_sensitivity": "amyloid_ab40_pg_ml (raw scale; higher=worse)",
+      "tests": [
+        "Spearman rho with permutation p-value and bootstrap CI",
+        "Pearson r (descriptive)",
+        "Mann-Whitney close vs far on fractional reduction"
+      ],
+      "interpretation_limit": "Confirms published frequency titration (40 Hz superior to 20/80), not an individualized frequency-mismatch mechanism."
+    },
+    "S1_secondary": {
+      "study": "Etter_2019",
+      "n": 7,
+      "inclusion_rule_code": "stim_baseline_ratio_10hz.notna() & stim_baseline_ratio_40hz.notna() & stim_baseline_ratio_80hz.notna()",
+      "excluded_explicitly": [
+        "Etter_181",
+        "Etter_183",
+        "Etter_184"
+      ],
+      "exclusion_reason": "Only 10 Hz stim/baseline reported; 40 and 80 Hz missing in MOESM4 fig_2n",
+      "predictor": "abs(preferred_stim_frequency_hz - 40) where preferred=argmax of measured ratios",
+      "outcome": "stim_baseline_ratio_40hz (raw, not min-max normalized)",
+      "tests": [
+        "Spearman rho with permutation p-value and bootstrap CI"
+      ],
+      "power": "Compute Fisher-z approximate power at n=7 for |rho|=0.5 and 0.7 and for observed |rho|",
+      "interpretation_limit": "Underpowered consistency check; not confirmatory of personalization."
+    },
+    "excluded": [
+      "pooled_n28_primary",
+      "meta_learning_confirmatory",
+      "etter_plaque_ID_aligned_amyloid_proxy",
+      "iaccarino_endogenous_gamma_distance_primary",
+      "incomplete_Etter_mice_with_10Hz_substituted_as_40Hz_response"
+    ]
+  },
+  "phase2_composite_policy": {
+    "report_both_scales": [
+      "raw_component_scores",
+      "zscored_across_sweep"
+    ],
+    "usable_components_in_simplified_sweep": [
+      "gc_total",
+      "pac_modulation_index"
+    ],
+    "zero_components_disclosed": [
+      "gamma_restoration",
+      "coherence_restoration"
+    ],
+    "headline_optimum_rule": "Primary reported optimum uses equal weights on usable (non-identically-zero) z-scored components. GC-only optima are sensitivity analyses only.",
+    "known_from_prior_sensitivity_json": {
+      "equal_usable_optimum_hz": 42.0,
+      "gc_only_optimum_hz": 28.0,
+      "noise_bootstrap_fraction_optimum_28": 0.0
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "generated_utc": "2026-11-26T19:47:19Z",
+  "random_seed": 42,
+  "P1_iaccarino_frequency_titration": {
+    "endpoint": "P1",
+    "outcome_fractional_reduction_vs_dark": {
+      "n": 18,
+      "spearman_rho": -0.7684945049531104,
+      "spearman_p_asymptotic_t": 0.00019466554362122695,
+      "spearman_p_permutation": 0.0003199968000319997,
+      "spearman_rho_bootstrap_ci95": [
+        -0.901137976867107,
+        -0.4001253440537881
+      ],
+      "pearson_r": -0.8449910825331602,
+      "pearson_p": 1.0181832410578346e-05,
+      "n_permutations": 100000,
+      "n_bootstrap": 10000,
+      "random_seed": 42
+    },
+    "outcome_raw_ab40_pg_ml": {
+      "n": 18,
+      "spearman_rho": 0.6888838439194399,
+      "spearman_p_asymptotic_t": 0.0015680577140614607,
+      "spearman_p_permutation": 0.002239977600223998,
+      "spearman_rho_bootstrap_ci95": [
+        0.24267031989138624,
+        0.8825379283246636
+      ],
+      "pearson_r": 0.5405450613207472,
+      "pearson_p": 0.020554248962352882,
+      "n_permutations": 100000,
+      "n_bootstrap": 10000,
+      "random_seed": 42
+    },
+    "close_vs_far": {
+      "close_n": 6,
+      "far_n": 12,
+      "close_mean": 0.5795809906184298,
+      "far_mean": 0.03605382910451952,
+      "close_median": 0.5908674069776667,
+      "far_median": 0.0,
+      "mannwhitney_U": 72.0,
+      "mannwhitney_p": 0.0005031118117304816,
+      "definition": "close: |f_stim-40|<5 (40 Hz arm); far: |f_stim-40|>=5 (20 and 80 Hz arms)"
+    },
+    "claim": "Assigned flicker mismatch from 40 Hz associates with lower fractional A\u03b21-40 reduction vs dark baseline (frequency titration consistency).",
+    "not_a_claim": "Personalized endogenous-gamma matching."
+  },
+  "S1_etter_complete_tri_frequency": {
+    "endpoint": "S1",
+    "included_mouse_ids": [
+      "Etter_177",
+      "Etter_236",
+      "Etter_238",
+      "Etter_255",
+      "Etter_333",
+      "Etter_334",
+      "Etter_354"
+    ],
+    "statistics_raw_40hz_ratio": {
+      "n": 7,
+      "spearman_rho": -0.5773502691896257,
+      "spearman_p_asymptotic_t": 0.17468781426411922,
+      "spearman_p_permutation": 0.22683773162268378,
+      "spearman_rho_bootstrap_ci95": [
+        -0.9074852129730302,
+        0.22771001702132435
+      ],
+      "pearson_r": -0.6075876571449208,
+      "pearson_p": 0.14785257196503654,
+      "n_permutations": 100000,
+      "n_bootstrap": 9786,
+      "random_seed": 42
+    },
+    "power": {
+      "observed_abs_rho": 0.5773502691896257,
+      "power_at_observed_abs_rho": {
+        "n": 7,
+        "alpha": 0.05,
+        "rho_alternative": 0.5773502691896257,
+        "approx_power_two_sided_fisher_z": 0.2606348018990984,
+        "method": "Fisher z approximation applied to Spearman (approximate for small n)"
+      },
+      "power_at_medium_effect_rho_0.5": {
+        "n": 7,
+        "alpha": 0.05,
+        "rho_alternative": 0.5,
+        "approx_power_two_sided_fisher_z": 0.1956341430654231,
+        "method": "Fisher z approximation applied to Spearman (approximate for small n)"
+      },
+      "power_at_large_effect_rho_0.7": {
+        "n": 7,
+        "alpha": 0.05,
+        "rho_alternative": 0.7,
+        "approx_power_two_sided_fisher_z": 0.41095860581483445,
+        "method": "Fisher z approximation applied to Spearman (approximate for small n)"
+      },
+      "comment": "n=7 yields far below 80% power even for large effects; non-significance is inconclusive, not evidence of no effect."
+    },
+    "design_notes": {
+      "s1_n": 7,
+      "s1_n_near_preferred_40": 3,
+      "s1_n_far": 4,
+      "predictor_unique_values_in_s1": [
+        0.0,
+        30.0
+      ],
+      "warning": "With only two distinct predictor values (0 and 30 Hz), S1 is effectively a two-group rank comparison and cannot demonstrate a continuous individualized mismatch mechanism.",
+      "incomplete_mice_excluded_from_s1": [
+        "Etter_181",
+        "Etter_183",
+        "Etter_184"
+      ],
+      "n_all_far_including_incomplete": 7,
+      "n_all_near": 3
+    },
+    "claim": "Underpowered secondary consistency check only.",
+    "significant_at_0.05_permutation": false
+  },
+  "phase2_sensitivity_excerpt": {
+    "source": "G:\\Alzheimers Dementia - Digital Twin\\Journal of Neural Engineering\\revised_resubmission\\github_zenodo_deposit\\data\\phase2_weighting_sensitivity.json",
+    "equal_usable_optimum_hz": 42.0,
+    "gc_only_optimum_hz": 28.0,
+    "noise_bootstrap_fraction_optimum_28": 0.0,
+    "raw_score_28_vs_40": {
+      "28_Hz_duty0.5": 0.3783513099714367,
+      "40_Hz_duty0.5": 0.375113379186083,
+      "absolute_delta": 0.003237930785353671,
+      "percent_above_40": 0.8631872295195908
+    },
+    "scientific_conclusion": "Under equal weights on usable z-scored components the optimum is ~42 Hz. 28 Hz appears only under GC-only weighting and is unstable under 1% noise (bootstrap fraction at 28 Hz = 0). Do not headline 28 Hz as a robust optimum."
+  },
+  "iaccarino_table_meta": {
+    "n": 18,
+    "dark_1hr_vc_baseline_mean_pg_ml": 354.40833234248066,
+    "n_no_reduction_vs_dark": 8,
+    "n_unique_ab40_values": 17,
+    "recompute_max_abs_diff_vs_source_raw": 2.448545095845578e-09,
+    "arms": {
+      "20": 6,
+      "40": 6,
+      "80": 6
+    }
+  }
+}

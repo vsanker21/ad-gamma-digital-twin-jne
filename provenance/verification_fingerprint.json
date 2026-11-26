@@ -1,0 +1,18 @@
+{
+  "generated_utc": "2026-11-26T19:47:19Z",
+  "etter_sha256_n": 10,
+  "etter_complete_n": 7,
+  "iaccarino_n": 18,
+  "iaccarino_unique_ab40": 17,
+  "p1_rho": -0.7684945049531104,
+  "s1_rho": -0.5773502691896257,
+  "s1_included": [
+    "Etter_177",
+    "Etter_236",
+    "Etter_238",
+    "Etter_255",
+    "Etter_333",
+    "Etter_334",
+    "Etter_354"
+  ]
+}

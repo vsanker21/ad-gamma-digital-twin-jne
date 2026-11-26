@@ -1,0 +1,19 @@
+mouse_id,intrinsic_gamma_peak,endogenous_gamma_peak_hz,stimulation_frequency,distance_from_40hz,distance_endogenous_from_40hz,treatment_response_40hz_raw,amyloid_ab40_pg_ml,experimental_group,study,group,intrinsic_gamma_source,extraction_method,treatment_response_40hz
+Iaccarino_20_Hz_1_hr_VC_01,20.0,20.0,20.0,20.0,20.0,0.0,944.4,20 Hz 1 hr VC,Iaccarino_2016,5xFAD,SWR_ExtDataFig1_digitized,pdf_table1_plus_swr_gamma,0.0
+Iaccarino_20_Hz_1_hr_VC_02,20.0,20.0,20.0,20.0,20.0,0.11627360121439878,313.2,20 Hz 1 hr VC,Iaccarino_2016,5xFAD,SWR_ExtDataFig1_digitized,pdf_table1_plus_swr_gamma,0.11627360121439878
+Iaccarino_20_Hz_1_hr_VC_03,28.51063829787234,28.51063829787234,20.0,20.0,11.48936170212766,0.0,595.9,20 Hz 1 hr VC,Iaccarino_2016,5xFAD,SWR_ExtDataFig1_digitized,pdf_table1_plus_swr_gamma,0.0
+Iaccarino_20_Hz_1_hr_VC_04,20.0,20.0,20.0,20.0,20.0,0.0,530.0,20 Hz 1 hr VC,Iaccarino_2016,5xFAD,SWR_ExtDataFig1_digitized,pdf_table1_plus_swr_gamma,0.0
+Iaccarino_20_Hz_1_hr_VC_05,20.0,20.0,20.0,20.0,20.0,0.0,456.5,20 Hz 1 hr VC,Iaccarino_2016,5xFAD,SWR_ExtDataFig1_digitized,pdf_table1_plus_swr_gamma,0.0
+Iaccarino_20_Hz_1_hr_VC_06,34.04255319148936,34.04255319148936,20.0,20.0,5.957446808510639,0.18201697613764636,289.9,20 Hz 1 hr VC,Iaccarino_2016,5xFAD,SWR_ExtDataFig1_digitized,pdf_table1_plus_swr_gamma,0.18201697613764636
+Iaccarino_40_Hz_1_hr_VC_01,20.0,20.0,40.0,0.0,20.0,0.5869171607507804,146.4,40 Hz 1 hr VC,Iaccarino_2016,5xFAD,SWR_ExtDataFig1_digitized,pdf_table1_plus_swr_gamma,0.5869171607507804
+Iaccarino_40_Hz_1_hr_VC_02,20.0,20.0,40.0,0.0,20.0,0.594817652157866,143.6,40 Hz 1 hr VC,Iaccarino_2016,5xFAD,SWR_ExtDataFig1_digitized,pdf_table1_plus_swr_gamma,0.594817652157866
+Iaccarino_40_Hz_1_hr_VC_03,28.51063829787234,28.51063829787234,40.0,0.0,11.48936170212766,0.7040137298200839,104.9,40 Hz 1 hr VC,Iaccarino_2016,5xFAD,SWR_ExtDataFig1_digitized,pdf_table1_plus_swr_gamma,0.7040137298200839
+Iaccarino_40_Hz_1_hr_VC_04,20.0,20.0,40.0,0.0,20.0,0.7189682314120673,99.6,40 Hz 1 hr VC,Iaccarino_2016,5xFAD,SWR_ExtDataFig1_digitized,pdf_table1_plus_swr_gamma,0.7189682314120673
+Iaccarino_40_Hz_1_hr_VC_05,20.0,20.0,40.0,0.0,20.0,0.49295774508794166,179.7,40 Hz 1 hr VC,Iaccarino_2016,5xFAD,SWR_ExtDataFig1_digitized,pdf_table1_plus_swr_gamma,0.49295774508794166
+Iaccarino_40_Hz_1_hr_VC_06,34.04255319148936,34.04255319148936,40.0,0.0,5.957446808510639,0.37981142172218074,219.8,40 Hz 1 hr VC,Iaccarino_2016,5xFAD,SWR_ExtDataFig1_digitized,pdf_table1_plus_swr_gamma,0.37981142172218074
+Iaccarino_80_Hz_1_hr_VC_01,20.0,20.0,80.0,40.0,20.0,0.06181664258698769,332.5,80 Hz 1 hr VC,Iaccarino_2016,5xFAD,SWR_ExtDataFig1_digitized,pdf_table1_plus_swr_gamma,0.06181664258698769
+Iaccarino_80_Hz_1_hr_VC_02,20.0,20.0,80.0,40.0,20.0,0.07253873806803239,328.7,80 Hz 1 hr VC,Iaccarino_2016,5xFAD,SWR_ExtDataFig1_digitized,pdf_table1_plus_swr_gamma,0.07253873806803239
+Iaccarino_80_Hz_1_hr_VC_03,28.51063829787234,28.51063829787234,80.0,40.0,11.48936170212766,0.0,363.5,80 Hz 1 hr VC,Iaccarino_2016,5xFAD,SWR_ExtDataFig1_digitized,pdf_table1_plus_swr_gamma,0.0
+Iaccarino_80_Hz_1_hr_VC_04,20.0,20.0,80.0,40.0,20.0,0.0,390.6,80 Hz 1 hr VC,Iaccarino_2016,5xFAD,SWR_ExtDataFig1_digitized,pdf_table1_plus_swr_gamma,0.0
+Iaccarino_80_Hz_1_hr_VC_05,20.0,20.0,80.0,40.0,20.0,0.0,530.0,80 Hz 1 hr VC,Iaccarino_2016,5xFAD,SWR_ExtDataFig1_digitized,pdf_table1_plus_swr_gamma,0.0
+Iaccarino_80_Hz_1_hr_VC_06,34.04255319148936,34.04255319148936,80.0,40.0,5.957446808510639,0.0,673.3,80 Hz 1 hr VC,Iaccarino_2016,5xFAD,SWR_ExtDataFig1_digitized,pdf_table1_plus_swr_gamma,0.0
